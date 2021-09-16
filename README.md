@@ -21,7 +21,7 @@
             ```
           - Example
             `createVolumeViewerData('OSOM/osom_grid4_mindep_smlp_mod7.nc','OSOM/ocean_his_0365.nc', 'dataOut', 'temp')`
-    4. To add more info and visual using labels, description or a model do the following
+    4. To add more information and visuals using labels, description, or a model do the following
        - Check the file `exampleOSOMDatafile.txt` in `/gpfs/runtime/opt/volumeviewer/1.0/share/data`
        - You can add the labels directly from the data as well as the other lines to your txt file of your output.
        - If you use the description and/or the mesh also copy the files to your data folder and adjust the paths.
