@@ -6,10 +6,10 @@ function [] = createVolumeViewerData(OsomGridFile,OsomDataFile, OutputFolder, da
 %    OsomGridFile	nc-file containing the layout for the grid, e.g. osom_grid4_mindep_smlp_mod7.nc
 %
 %    OsomDataFile   nc file containing the data for the viewer, e.g. ocean_his_0365.nc
-%                    
-%    dataDescriptor description of the data in the nc-file, e.g 'temp'
 %
 %    OutputFolder	Outputfolder in which the data is generated
+%
+%    dataDescriptor description of the data in the nc-file, e.g 'temp'
 
     verticalLevels = 15;
     downscaleFactor = 2;
