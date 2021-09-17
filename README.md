@@ -1,13 +1,13 @@
 # Matlab Scripts to get Data for VolumeViewer
 
-1. Login to a VNC node with 1 GPU 
+1. Connect to Oscar by logging in to a VNC node with 1 GPU. [See Oscar docs on connecting with VNC.](https://docs.ccv.brown.edu/oscar/connecting-to-oscar/vnc)
    
 2. Start by running `/gpfs/runtime/opt/volumeviewer/1.0/bin/start_volumeviewer_2D`
    Data folder: `/users/dullman1/data/dullman1/EPSCOR`
 
 3. Convert Data from OSOM nc files to RAW
     1. `cd /gpfs/runtime/opt/volumeviewer/1.0/share/OSOM`
-    2. Open Matlab
+    2. Launch Matlab from the applications menu
     3. Run `createVolumeViewerData`
         - Input
           - ```matlab
